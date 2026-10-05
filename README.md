@@ -118,8 +118,6 @@ The system also prevents overlapping bookings, making the scheduling process org
     │   │   ├── sessions.js
     │   │   └── tutors.js
     │   │
-    │   ├── .env
-    │   ├── .gitignore
     │   ├── package-lock.json
     │   ├── package.json
     │   └── server.js
@@ -143,7 +141,6 @@ The system also prevents overlapping bookings, making the scheduling process org
     │   │   ├── index.css
     │   │   └── main.jsx
     │   │
-    │   ├── .gitignore
     │   ├── eslint.config.js
     │   ├── index.html
     │   ├── package-lock.json
@@ -587,7 +584,7 @@ Protected requests include the JWT token in the Authorization header.
 
 ## Environment Variables
 
-The backend uses a `.env` file for sensitive configuration.
+The backend uses environment variables for sensitive configuration.
 
 Example:
 
@@ -595,7 +592,7 @@ Example:
     JWT_SECRET=your_jwt_secret
     PORT=7979
 
-The `.env` file should not be uploaded to GitHub because it contains sensitive information.
+These values should be configured in the environment before starting the backend.
 
 ---
 
@@ -615,7 +612,7 @@ Open the terminal and run:
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file inside the `backend` folder:
+Configure the following environment variables:
 
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret

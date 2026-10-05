@@ -6,6 +6,18 @@ The system uses React.js for the frontend, Node.js and Express.js for the backen
 
 ---
 
+## Live Demo
+
+Frontend:
+
+https://online-tutoring-booking-system-1.onrender.com
+
+Backend API:
+
+https://online-tutoring-booking-system.onrender.com
+
+---
+
 ## Features
 
 - Student registration and login
